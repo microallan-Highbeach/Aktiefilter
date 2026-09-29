@@ -2,4 +2,4 @@ streamlit
 pandas
 numpy
 yfinance
-pandas-ta-quant
+pandas-ta>=0.3.14b0
