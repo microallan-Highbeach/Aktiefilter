@@ -43,7 +43,7 @@ large_cap_tickers = [
     "HUSQ-B.ST", "INVE-B.ST", "KINV-B.ST", "LATO-B.ST", "LIFCO-B.ST",
     "NIBE-B.ST", "NDA-SE.ST", "PEAB-B.ST", "SAND.ST", "SCA-B.ST", "SEB-A.ST",
     "SECU-B.ST", "SKA-B.ST", "SKF-B.ST", "SOBI.ST", "SSAB-A.ST", "STE-R.ST",
-    "SWED-A.ST", "SWMA.ST", "TEL2-B.ST", "TELIA.ST", "TREL-B.ST", "VOLV-A.ST",
+    "SWED-A.ST", "TEL2-B.ST", "TELIA.ST", "TREL-B.ST", "VOLV-A.ST",
     "VOLV-B.ST", "WIHL.ST"
 ]
 
