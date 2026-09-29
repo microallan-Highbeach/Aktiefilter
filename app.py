@@ -75,10 +75,11 @@ def hamta_borsdata_med_allt(tickers):
                 dagens_vol = historik.iloc[-1]["Volume"]
                 dagens_volsma = historik.iloc[-1]["Vol_SMA20"]
                 ars_botten = historik["Low"].min()
-            if pd.isna(ars_botten) or ars_botten == 0:
-                avstand_botten = 0.0
-            else:
-                avstand_botten = ((dagens_kurs - ars_botten) / ars_botten) * 100
+                
+                if pd.isna(ars_botten) or ars_botten == 0:
+                    avstand_botten = 0.0
+                else:
+                    avstand_botten = ((dagens_kurs - ars_botten) / ars_botten) * 100
 
                 rapport = "Okänt"
                 try:
