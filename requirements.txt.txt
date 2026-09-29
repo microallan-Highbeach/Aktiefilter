@@ -2,4 +2,4 @@ streamlit
 pandas
 numpy
 yfinance
-git+https://github.com/twopirllc/pandas-ta.git
+pandas-ta-quant
